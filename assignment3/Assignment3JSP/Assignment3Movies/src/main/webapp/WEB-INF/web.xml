@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+    <servlet>
+        <servlet-name>MoviesController</servlet-name>
+        <servlet-class>com.mycompany.assignment3Controller.MoviesController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>BooksController</servlet-name>
+        <servlet-class>com.mycompany.assignment3Controller.BooksController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ShoppingController</servlet-name>
+        <servlet-class>com.mycompany.assignment3Controller.ShoppingController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MoviesController</servlet-name>
+        <url-pattern>/MoviesController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>BooksController</servlet-name>
+        <url-pattern>/BooksController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ShoppingController</servlet-name>
+        <url-pattern>/ShoppingController</url-pattern>
+    </servlet-mapping>
+</web-app>

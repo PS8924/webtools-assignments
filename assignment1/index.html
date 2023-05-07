@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Northeastern University Tuition Waiver Form</title>
+  </head>
+  <body>
+  <form action="part4.html" method="post">
+    <div class="header">
+      <h3>Human Resources</h3>
+      <p>This form is used by part-time faculty, part-time staff, retirees, their spouses or domestic partners and their dependents. 
+        All full-time faculty and staff should use the online Tuition Waiver Form found on myNEU. Before completing this form, 
+        please refer to the Tuition Waiver Program Guidelines. Be sure to include a Dependent Certification Form along with 
+        the submission of this form for any dependent children.</p>
+    </div>
+    <div class="body">
+      <h3>Section 1</h3>
+      <label for="term">Academic Term:</label>
+      <input type="text" name="Academic Term">
+      &nbsp;<label for="year">Academic Year:</label>
+      <input type="text" name="Academic Year">
+      &nbsp;&nbsp;<label for="status">Employee Status:</label>
+      <input type="checkbox" name="Employee Status" value="ptstaff"><label>P/T staff</label>
+      <input type="checkbox" name="Employee Status" value="ptfaculty"><label>P/T faculty</label>
+      <input type="checkbox" name="Employee Status" value="ptfaculty"><label>Retiree</label>
+      <input type="checkbox" value="Other"><label>Other</label>
+      <input type="text" name="Employee Status"/><br>
+      <p style="padding: 8px; background-color: gainsboro">*Terms with multiple sessions are considered one academic term for tuition waiver purposes e.g., summer sessions I and
+        II are considered one academic term</p>
+
+      <h3>Section 2</h3>
+      <label for="name">Student's Name:</label>
+      &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="Student's Name">
+      &nbsp;<label for="relation">Relationship to Employee:</label>
+      <input type="text" name="Relationship to Employee">
+      &nbsp;<label for="nuid">Student's NUID:</label>
+      <input type="text" name="Student's NUID"></br></br>
+      <label for="employee">Employee's Name:</label>
+      <input type="text" name="Employee's Name">
+      &nbsp;<label for="emp-name">Employee's NUID:</label>
+      <input type="text" name="Employee's NUID"></br></br>
+      <label for="department">Department:</label>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="text" name="Department">
+      &nbsp;<label for="campus">Campus Location:</label>
+      <input type="text" name="Campus">
+      &nbsp;<label for="phone">Phone Number:</label>
+      <input type="text" name="Phone">
+      &nbsp;<label for="supervisor Name">Supervisor's Name:</label>
+      <input type="text" name="Supervisor Nname">
+
+      <h3>Section 3</h3>
+      <input type="checkbox" name="School" value="ug-program"><label>Undergraduate Program</label>
+      <input type="checkbox" name="School" value="law-school"><label>Law School</label>
+      <input type="checkbox" name="School" value="doctoral-candidate"><label>Doctoral Candidate</label>
+      <input type="checkbox" name="School" value="cps"><label>College of Professional Studies (CPS) Undergraduate</label>
+      <input type="checkbox" name="School" value="graduate-school"><label>Graduate School</label>
+      <input type="checkbox" name="School" value="cps-graduate-school"><label>CPS Graduate School</label></br></br>
+      
+      <p style="padding: 8px; background-color: gainsboro">One course per academic term may be taken one-half hour before the end of your workday. If this applies to you, this 
+      form must be signed by your supervisor below and approved by Human Resources Management
+      Complete the following course information. If you are an employee taking a job related course, please attach the Job 
+      Related Designation Form to this waiver.</p>
+
+      <table style="width:100%">
+        <tr>
+          <th>Course No.</th>
+          <th>Course Name</th>
+          <th>Supervisor Signature</th>
+          <th>Credit Hrs.</th>
+          <th>Days(s)</th>
+          <th>Time</th>
+        </tr>
+        <tr>
+          <td><input type="text" name="Course No"></td>
+          <td><input type="text" name="Course Name"></td>
+          <td><input type="file" name="Supervisor Sign"></td>
+          <td><input type="text" name="Credit hrs"></td>
+          <td><input type="text" name="Days"></td>
+          <td><input type="text" name="Time"> am/pm</td>
+        </tr>
+        <tr>
+          <td><input type="text" name="Course No"></td>
+          <td><input type="text" name="Course Name"></td>
+          <td><input type="file" name="Supervisor Sign"></td>
+          <td><input type="text" name="Credit hrs"></td>
+          <td><input type="text" name="Days"></td>
+          <td><input type="text" name="Time"> am/pm</td>
+        </tr>
+        <tr>
+          <td><input type="text" name="Course No"></td>
+          <td><input type="text" name="Course Name"></td>
+          <td><input type="file" name="Supervisor Sign"></td>
+          <td><input type="text" name="Credit hrs"></td>
+          <td><input type="text" name="Days"></td>
+          <td><input type="text" name="Time"> am/pm</td>
+        </tr>
+      </table>
+
+      <h3>Section 4</h3>
+      <p style="padding: 8px; background-color: gainsboro">In accordance with Northeastern University's Tuition Waiver Program Guidelines, my signature attests that I am 
+      currently enrolled in the above courses, or that the student listed above is my spouse, domestic partner or 
+      unmarried dependent child or the dependent child of my domestic partner as defined under current IRS tax 
+      regulations. I also certify that I have read the Tuition Waiver Program Guidelines</p>
+      </br><label>Employee Signature:</label>
+      <input type="file" name="Employee Signature">
+      &nbsp;<label>Date:</label>
+      <input type="text" name="Employee date">
+
+      <h3>Section 5</h3>
+      <label>HRM Approval:</label>
+      <input type="file" name="HRM Approval">
+      &nbsp;<label>Date:</label>
+      <input type="text" name="HRM Date">
+          
+      </div>
+      <p style="padding: 8px; background-color: gainsboro">Forms will be reviewed for completeness and eligibility. You will be notified if any additional information is needed. Mail completed form to 
+      Human Resources, 250 Columbus Place or fax to (617) 373-7610. All waivers must be received by HRM within 30 days 
+      of the course start date</p>
+      <div style="text-align:center">  
+        <input type="submit">  
+      </div> 
+    </form>     
+  </body>
+</html>

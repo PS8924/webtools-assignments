@@ -1,0 +1,38 @@
+<web-app>
+    <servlet>
+        <servlet-name>part2</servlet-name>
+        <servlet-class>assignMentPart2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>part2</servlet-name>
+        <url-pattern>/part2.html</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>part3</servlet-name>
+        <servlet-class>assignMentPart3</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>part3</servlet-name>
+        <url-pattern>/part3.html</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>part4</servlet-name>
+        <servlet-class>assignMentPart4</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>part4</servlet-name>
+        <url-pattern>/part4.html</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>part5</servlet-name>
+        <servlet-class>assignMentPart5</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>part5</servlet-name>
+        <url-pattern>/part5.html</url-pattern>
+    </servlet-mapping>
+
+    <welcome-file-list>  
+        <welcome-file>index.html</welcome-file>  
+    </welcome-file-list>
+</web-app>
